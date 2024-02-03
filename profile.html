@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+   <nav id="desktop-nav">
+    <div class="logo">PRATHISH</div>
+   
+
+       <ul class="nav_link">
+        
+        <a href="#about">About </a>
+        <a href="#skills">Skills </a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+    
+    </ul>
+   </nav>
+   <nav id="handb">
+    <div class="logo">PRATHISH</div>
+    <div class="handb-menu">
+        <div class="handb-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+           
+        
+           <li> <a href="#about"  onclick="toggleMenu()">About </a></li>
+            <li><a href="#skills"  onclick="toggleMenu()">Skills </a></li>
+            <li><a href="#project"  onclick="toggleMenu()">Project</a></li>
+           <li> <a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+            
+            
+        </div>
+    </div>
+   </nav>
+   </header>
+ <section id="profile">
+    <div class="section__pic-container">
+        <img src="./lang/me.jpg" alt="profile" class="profile">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Prathish</h1>
+        <p class="section-text-p2">Full Stack Developer</p>
+        <div class="btn">
+            <button class="btn btn-colour" onclick="window.open('./Resume.pdf')">Download CV</button>
+        </div>
+        <div class="social_media">
+            <img src="github.png" alt="" class="icon" onclick="location.href='https://github.com/Prathisz'">
+            <img src="linkedin.png" alt="" class="icon" onclick="location.href='https://www.linkedin.com/in/prathish-j-91495b248/'">
+
+        </div>
+    </div>
+ </section>
+ <section id="about">
+    <p class="section-text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <!-- <img src="./about.jpg" alt=""> -->
+        </div>
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="ribbon.png" alt="" class="icon">
+                    <h3>Experience</h3>
+                    <p>8 months <br/>MERN Development </p>
+                </div>
+                <div class="details-container">
+                    <img src="education.png" alt="" class="icon">
+                    <h3>Education</h3>
+                    <p>B.E Bachelors Degree <br/> Electronic and Communication Engineering</p>
+                </div>
+               
+            </div>
+            <div class="text-container">
+                <p>To Seek a challenging position in a reputed organization where i can
+                    learn new skills, expand my knowledge and leverage my learnings and
+                    eager to put my skills to work in a professional setting. Gained valuable
+                    experience through internships and volunteer work.</p>
+            </div>
+        </div>
+    </div>
+    
+ </section>
+ <section id="skills">
+    <p class="section-text-p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="details-container">
+        <div class="about-containerr">
+            <h2 class="skill-subtitile">Languages Known</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./lang/java.png" alt="" style="height: 15vh;" class="icon">
+                </article>
+                <article>
+                    <img src="./lang/html.png" alt="" class="icon" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/css.png" alt="" class="icon" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/js.png" alt="" style="height: 15vh;" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/react.png" alt="" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/db.png" alt="" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/node-js.png" alt="" style="height: 15vh;">
+                </article>
+                <article>
+                    <img src="./lang/bootstrap.png" alt="" style="height: 15vh;">
+                </article>
+                
+                <article>
+                    <img src="./lang/material-ui.svg" alt="" style="height: 15vh;">
+                </article>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section id="project">
+             <p class="section-text-p1">Browse My Recent</p>
+             <h1 class="title">Projects</h1>
+             <div  class="flexx">
+    <div class="experience-details-container">
+        <div class="about-container2">
+            <div class="details-container color-container">
+                 <div class="article-container">
+                    <img src="Lora.jpg" alt="" class="project-img" style="height: 250px">
+                 </div>
+                 <h2 class="project-title" style="height: 10vh;">LoRa Based Weather Monitor</h2>
+                 <div class="project-description" style="height: 23vh;">LoRa-based weather monitoring station to gather real-time weather data with precision and transmit it over long distances including temperature ,pressure ,rainfall ,dew point and light intensity by providing reliable and cost-effective weather information.
+                 </div>
+                  <div class="btn-container">
+                    <button class="btn btn-colour" onclick="location.href='https://ijirt.org/master/publishedpaper/IJIRT159472_PAPER.pdf'">Details</button>
+                </div>
+            </div> 
+       </div>
+    </div>
+     <div class="experience-details-container">
+        <div class="about-container2">
+           <div class="details-container color-container">
+             <div class="article-container">
+                    <img src="ecom.png" alt="" class="project-img" style="height: 250px">
+                </div>
+                    <h2 class="project-title" style="height: 10vh;">E Commerce</h2>
+                    <div class="project-description" style="height: 23vh;">Our E commerce website provides user-friendly features and streamlined navigation. Seamless checkout will improve the traffic in our website.My dedication to enhancing the overall functionalityand proven track record in improving conversion rates and positive customer feedback.</div>
+                        <div class="btn-container">
+                          <button class="btn btn-colour" onclick="location.href='https://github.com/Prathisz/ECOM'">Github</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+       
+     <div class="experience-details-container">
+        <div class="about-container2">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="pro3.jpg" alt="" class="project-img" style="height: 250px">
+            </div>
+            <h2 class="project-title" style="height: 10vh;">Epicc Coding Sheet</h2>
+            <div class="project-description" style="height: 23vh;">To Create a user-friendly online coding platform.
+                To Students can manage their favorite problem in database & and they can improving their knowledge by solving already existed problem also. 
+                 Support multiple programming languages for coding challenges
+            </div>
+            <div class="btn-container">
+               
+                <button class="btn btn-colour" onclick="location.href='https://ijirt.org/master/publishedpaper/IJIRT159472_PAPER.pdf'">Details</button>
+            </div>
+        </div> 
+    </div>
+</div>
+</div>
+ </section>
+ <section id="contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-upper-container">
+        <div class="contact-container">
+            <img src="email.png" alt="" class="icon contact-icon">
+            <a href="mailto:prathish0071@gmail.com">Send Email</a>
+        </div>
+        <div class="contact-container">
+            <img src="linkedin.png" alt="" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/prathish-j-91495b248/">LinkedIn</a></p>
+        </div>
+    </div>
+ </section>
+ <footer>
+    <nav>
+        <div class="nav_link-container">
+            <ul class="nav_link">
+                <li><a href="#about">About </a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <p>Copyright &#169;2034 Prathish. All Rights Reserved.</p>
+    </nav>
+</footer>
+</body>
+</html>
